@@ -21,8 +21,8 @@ int main(void)
 	/*print A - Z*/
 	while (ch2 <= 'Z')
 	{
-		putchar(CH);
-		ch++;
+		putchar(CH2);
+		ch2++;
 	}
 	putchar('\n');
 	return (0);
