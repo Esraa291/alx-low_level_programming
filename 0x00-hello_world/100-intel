@@ -1,4 +1,2 @@
 #!/bin/bash
-gcc -S -masn=intel "$CFILE" -o "$sfile"
-CFILE=0-main.c
-./100-intel
+gcc -S -masn-intel $CFILE -o 'echo $CFILE | cut -d. f1'.s
