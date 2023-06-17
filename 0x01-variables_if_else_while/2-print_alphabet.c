@@ -1,5 +1,6 @@
 #include <stdlib.h>
 
+
 /**
  * main - Entry point
  *
@@ -13,9 +14,9 @@ int main(void)
 
 	while (ch <= 'z')
 	{
-		putcher(ch);
+		putchar(ch);
 		ch++;
 	}
-	putcher('\n');
+	putchar('\n');
 	return (0);
 }
