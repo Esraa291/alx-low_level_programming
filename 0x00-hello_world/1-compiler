@@ -1,7 +1,2 @@
 #!/bin/bash
-
-# Get the name of the C file from the environment variable CFILE
-CFILE=$CFILE
-
-# Compile the C file but don't link
 gcc -c $CFILE -o "${CFILE%.*}.o"
