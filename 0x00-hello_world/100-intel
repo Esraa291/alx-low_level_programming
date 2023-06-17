@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -S -masn-intel $CFILE -o 'echo $CFILE | cut -d. f1'.s
+sfile="${CFILE%.c}.s"
+gcc -S -masm=intel "$CFILE" -o "$sfile"
