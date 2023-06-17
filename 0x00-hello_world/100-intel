@@ -1,2 +1,4 @@
 #!/bin/bash
 gcc -S -masn=intel "$CFILE" -o "$sfile"
+CFILE=0-main.c
+./100-intel
