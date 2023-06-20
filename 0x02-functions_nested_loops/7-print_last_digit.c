@@ -19,19 +19,3 @@ int print_last_digit(int n)
 	_putchar(last_digit + '0');
 
 	return (last_digit);
-}
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
-*/
-
-int main(void)
-{
-	int r;
-
-	r = print_last_digit(98);
-	_putchar('\n');
-	return (0);
-}
